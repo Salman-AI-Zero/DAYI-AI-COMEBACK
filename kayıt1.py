@@ -120,7 +120,7 @@ if not st.session_state.logged_in:
                     st.error("Dayı seni kapıya koydu! Kapıda bekle.")
                 else:
                     acc = requests.get(f"{FIREBASE_BASE_URL}accounts/{u}.json").json()
-                    if acc and acc['password'] == hash_password(p):
+                    if acc and acc.get('password') == hash_password(p):
                         st.session_state.logged_in = True
                         st.session_state.username = u
                         # Affedilme mesajı kontrolü
