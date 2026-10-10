@@ -18,7 +18,7 @@ API_KEY = "AIzaSyDxR9KvvGz2G10JR5V04WYIyrmydgwOTzY"
 SERPER_API_KEY = "62c6bd8bf8dbeaefedcc7ab9b22edb43ca529e79"
 FIREBASE_BASE_URL = "https://salman-ai-zero-default-rtdb.europe-west1.firebasedatabase.app/"
 SMTP_USER = "hmertsalman28@gmail.com"
-SMTP_PASS = "tfbt flpj fhzl smmj"
+SMTP_PASS = "ihfw chki gkbs ytdc"
 
 MODELS = {"Gelişmiş": "gemma-3-27b-it", "Hızlı ": "gemma-3-4b-it"}
 KUFUR_LISTESI = ["göt", "am", "piç", "oç", "siktir", "mk", "salak", "aptal", "mal"]
